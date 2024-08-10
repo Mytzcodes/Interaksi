@@ -1,128 +1,96 @@
-* {
-  margin: 0;
-}
-
-body {
-  background-image: url(Picture/Interaksi.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-img {
-  width: 100%;
-}
-
-.Title {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#Judul-Halaman {
-  font-size: 45px;
-  padding: 2%;
-  display: flex;
-  justify-content: center;
-}
-
-main {
-  margin-top: 5vh;
-}
-
-.Item {
-  display: flex;
-  padding-top: 1%;
-  padding-bottom: 2%;
-  justify-content: space-around;
-}
-
-.Orders-Button {
-  justify-content: center;
-  display: flex;
-  margin-top: 20%;
-}
-
-.Order {
-  align-items: center;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  width: 25%;
-}
-
-.Card-1 {
-  outline-width: 222px;
-  outline-color: aqua;
-  border-radius: 10px;
-  width: 20%;
-  outline-color: cadetblue;
-  outline-style: solid;
-  outline-width: 5px;
-}
-
-#Card-1 {
-  border-radius: 12px;
-  border: 5px solid transparent;
-  padding-bottom: 20%;
-  background-color: transparent;
-  backdrop-filter: blur(20px);
-  display: flex;
-  align-items: center;
-}
-
-@media only screen and (min-width: 300px) and (max-width: 760px) {
-  body {
-    background-image: url(Picture/Interaksi.jpg);
-    background-repeat: no-repeat;
-    background-size: 450%;
-  }
-
-  #Judul-Halaman {
-    font-size: 25px;
-    padding: 5%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .Item {
-    padding-top: 1%;
-    padding-bottom: 2%;
-    overflow: visible;
-}
-
-.Orders-Button {
-    justify-content: center;
-    display: flex;
-    margin-top: 20%;
-  }
-
-  .Order {
-    background-image: url(Picture/Order.png);
-    padding: 15px;
-    align-items: center;
-    display: flex;
-  }
-
-  .Card-1 {
-    display: flex;
-    justify-content: flex-end;
-    outline-width: 222px;
-    outline-color: aqua;
-    border-radius: 10px;
-    width: 20%;
-    outline-color: cadetblue;
-    outline-style: solid;
-    outline-width: 5px;
-  }
-
-  #Card-1 {
-    border-radius: 12px;
-    border: 5px solid transparent;
-    padding-bottom: 20%;
-    background-color: transparent;
-    backdrop-filter: blur(20px);
-    display: flex;
-    align-items: center;
-  }
-  #Buts {
-    width: 22px;
-  }
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interaksi Antar Ruang</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="Title">
+      <h2 id="Judul-Halaman">Interaksi Antar Ruang</h2>
+    </header>
+    <main class="Item">
+      <article class="Card-1">
+        <figure id="Card-1">
+          <div>
+            <img src="Picture/Interaksi.jpg" alt="Product.png" />
+            <figcaption>
+              Alat Yang Membantu anda saat Kesepian juga Bisa Menjadi Tempat
+              Anda bercerita
+            </figcaption>
+            <br />
+            <figcaption>Order Sekarang Di Tombol Bawah Nomor Jony</figcaption>
+            <span class="Orders-Button">
+              <button class="Order">
+                <a id="Order" href="https://shorturl.at/FmI3v" target="blink"
+                  ><img src="Picture/Order.png" alt="Order-Now.png" id="Buts"
+                /></a>
+              </button>
+            </span>
+          </div>
+        </figure>
+      </article>
+      <article class="Card-1">
+        <figure id="Card-1">
+          <div>
+            <img src="Picture/Interaksi.jpg" alt="Product.png" />
+            <figcaption>
+              Alat Yang Membantu anda saat Kesepian juga Bisa Menjadi Tempat
+              Anda bercerita
+            </figcaption>
+            <br />
+            <figcaption>Order Sekarang Di Tombol Bawah Nomor Jony</figcaption>
+            <span class="Orders-Button">
+              <button class="Order">
+                <a id="Order" href="https://shorturl.at/FmI3v" target="blink"
+                  ><img src="Picture/Order.png" alt="Order-Now.png" id="Buts"
+                /></a>
+              </button>
+            </span>
+          </div>
+        </figure>
+      </article>
+      <article class="Card-1">
+        <figure id="Card-1">
+          <div>
+            <img src="Picture/Interaksi.jpg" alt="Product.png" />
+            <figcaption>
+              Alat Yang Membantu anda saat Kesepian juga Bisa Menjadi Tempat
+              Anda bercerita
+            </figcaption>
+            <br />
+            <figcaption>Order Sekarang Di Tombol Bawah Nomor Jony</figcaption>
+            <span class="Orders-Button">
+              <button class="Order">
+                <a id="Order" href="https://shorturl.at/FmI3v" target="blink"
+                  ><img src="Picture/Order.png" alt="Order-Now.png" id="Buts"
+                /></a>
+              </button>
+            </span>
+          </div>
+        </figure>
+      </article>
+      <article class="Card-1">
+        <figure id="Card-1">
+          <div>
+            <img src="Picture/Interaksi.jpg" alt="Product.png" />
+            <figcaption>
+              Alat Yang Membantu anda saat Kesepian juga Bisa Menjadi Tempat
+              Anda bercerita
+            </figcaption>
+            <br />
+            <figcaption>Order Sekarang Di Tombol Bawah Nomor Jony</figcaption>
+            <span class="Orders-Button">
+              <button class="Order">
+                <a id="Order" href="https://shorturl.at/FmI3v" target="blink"
+                  ><img src="Picture/Order.png" alt="Order-Now.png" id="Buts"
+                /></a>
+              </button>
+            </span>
+          </div>
+        </figure>
+      </article>
+    </main>
+  </body>
+</html>
