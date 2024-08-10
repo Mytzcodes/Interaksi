@@ -83,14 +83,12 @@ main {
   }
 
   .Item {
-    display: flex;
     padding-top: 1%;
     padding-bottom: 2%;
     overflow: visible;
-    justify-content: space-evenly;
-  }
+}
 
-  .Orders-Button {
+.Orders-Button {
     justify-content: center;
     display: flex;
     margin-top: 20%;
@@ -104,6 +102,8 @@ main {
   }
 
   .Card-1 {
+    display: flex;
+    justify-content: flex-end;
     outline-width: 222px;
     outline-color: aqua;
     border-radius: 10px;
@@ -121,5 +121,8 @@ main {
     backdrop-filter: blur(20px);
     display: flex;
     align-items: center;
+  }
+  #Buts {
+    width: 22px;
   }
 }
