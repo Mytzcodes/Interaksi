@@ -17,21 +17,21 @@ img {
 }
 
 #Judul-Halaman {
-    font-size: 45px;
-    padding: 2%;
-    display: flex;
-    justify-content: center;
+  font-size: 45px;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
 }
 
 main {
-    margin-top: 5vh;
+  margin-top: 5vh;
 }
 
 .Item {
-    display: flex;
-    padding-top: 1%;
-    padding-bottom: 2%;
-    justify-content: space-around;
+  display: flex;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  justify-content: space-around;
 }
 
 .Orders-Button {
@@ -49,6 +49,61 @@ main {
 }
 
 .Card-1 {
+  outline-width: 222px;
+  outline-color: aqua;
+  border-radius: 10px;
+  width: 20%;
+  outline-color: cadetblue;
+  outline-style: solid;
+  outline-width: 5px;
+}
+
+#Card-1 {
+  border-radius: 12px;
+  border: 5px solid transparent;
+  padding-bottom: 20%;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 760px) {
+  body {
+    background-image: url(Picture/Interaksi.jpg);
+    background-repeat: no-repeat;
+    background-size: 450%;
+  }
+
+  #Judul-Halaman {
+    font-size: 25px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Item {
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    overflow: visible;
+    justify-content: space-evenly;
+  }
+
+  .Orders-Button {
+    justify-content: center;
+    display: flex;
+    margin-top: 20%;
+  }
+
+  .Order {
+    background-image: url(Picture/Order.png);
+    padding: 15px;
+    align-items: center;
+    display: flex;
+  }
+
+  .Card-1 {
     outline-width: 222px;
     outline-color: aqua;
     border-radius: 10px;
@@ -56,14 +111,15 @@ main {
     outline-color: cadetblue;
     outline-style: solid;
     outline-width: 5px;
-}
+  }
 
-#Card-1 {
+  #Card-1 {
     border-radius: 12px;
     border: 5px solid transparent;
     padding-bottom: 20%;
     background-color: transparent;
     backdrop-filter: blur(20px);
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
+  }
 }
